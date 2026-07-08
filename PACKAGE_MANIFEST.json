@@ -1,0 +1,10 @@
+﻿{
+    "package_name":  "STM32手写识别AI开源参考工程",
+    "docs":  "04_项目说明文档/",
+    "training_tools":  "02_PC端网页与训练工具/训练与模型工具/",
+    "firmware_project":  "01_STM32固件源码/Project/RVMDK（uv5）/BH-F103.uvprojx",
+    "tf_card_sample":  "03_TF卡示例文件/",
+    "generated_at":  "2026-07-08",
+    "pc_receiver":  "02_PC端网页与训练工具/网页接收端/web_receiver.py"
+}
+

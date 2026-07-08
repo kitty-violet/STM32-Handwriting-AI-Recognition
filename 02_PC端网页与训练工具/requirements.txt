@@ -1,0 +1,9 @@
+﻿numpy
+pillow
+torch
+torchvision
+pyttsx3
+pywin32
+comtypes
+selenium
+

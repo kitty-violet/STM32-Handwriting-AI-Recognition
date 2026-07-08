@@ -1,0 +1,521 @@
+﻿{
+  "weights": "<LOCAL_PATH>",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "classes": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z"
+  ],
+  "accuracy": 0.9682915111423186,
+  "macro_accuracy": 0.9482513550207842,
+  "correct": 26201,
+  "total": 27059,
+  "per_class": [
+    {
+      "class_id": 0,
+      "label": "a",
+      "total": 1644,
+      "correct": 1616,
+      "accuracy": 0.9829683698296837
+    },
+    {
+      "class_id": 1,
+      "label": "b",
+      "total": 853,
+      "correct": 844,
+      "accuracy": 0.9894490035169988
+    },
+    {
+      "class_id": 2,
+      "label": "c",
+      "total": 432,
+      "correct": 421,
+      "accuracy": 0.9745370370370371
+    },
+    {
+      "class_id": 3,
+      "label": "d",
+      "total": 1683,
+      "correct": 1667,
+      "accuracy": 0.9904931669637552
+    },
+    {
+      "class_id": 4,
+      "label": "e",
+      "total": 4092,
+      "correct": 4060,
+      "accuracy": 0.9921798631476051
+    },
+    {
+      "class_id": 5,
+      "label": "f",
+      "total": 400,
+      "correct": 390,
+      "accuracy": 0.975
+    },
+    {
+      "class_id": 6,
+      "label": "g",
+      "total": 589,
+      "correct": 458,
+      "accuracy": 0.7775891341256367
+    },
+    {
+      "class_id": 7,
+      "label": "h",
+      "total": 1479,
+      "correct": 1456,
+      "accuracy": 0.9844489519945909
+    },
+    {
+      "class_id": 8,
+      "label": "i",
+      "total": 427,
+      "correct": 235,
+      "accuracy": 0.550351288056206
+    },
+    {
+      "class_id": 9,
+      "label": "j",
+      "total": 317,
+      "correct": 289,
+      "accuracy": 0.9116719242902208
+    },
+    {
+      "class_id": 10,
+      "label": "k",
+      "total": 466,
+      "correct": 457,
+      "accuracy": 0.98068669527897
+    },
+    {
+      "class_id": 11,
+      "label": "l",
+      "total": 2535,
+      "correct": 2448,
+      "accuracy": 0.9656804733727811
+    },
+    {
+      "class_id": 12,
+      "label": "m",
+      "total": 464,
+      "correct": 458,
+      "accuracy": 0.9870689655172413
+    },
+    {
+      "class_id": 13,
+      "label": "n",
+      "total": 1898,
+      "correct": 1872,
+      "accuracy": 0.9863013698630136
+    },
+    {
+      "class_id": 14,
+      "label": "o",
+      "total": 466,
+      "correct": 452,
+      "accuracy": 0.9699570815450643
+    },
+    {
+      "class_id": 15,
+      "label": "p",
+      "total": 368,
+      "correct": 361,
+      "accuracy": 0.9809782608695652
+    },
+    {
+      "class_id": 16,
+      "label": "q",
+      "total": 505,
+      "correct": 448,
+      "accuracy": 0.8871287128712871
+    },
+    {
+      "class_id": 17,
+      "label": "r",
+      "total": 2320,
+      "correct": 2290,
+      "accuracy": 0.9870689655172413
+    },
+    {
+      "class_id": 18,
+      "label": "s",
+      "total": 437,
+      "correct": 429,
+      "accuracy": 0.9816933638443935
+    },
+    {
+      "class_id": 19,
+      "label": "t",
+      "total": 2965,
+      "correct": 2915,
+      "accuracy": 0.9831365935919055
+    },
+    {
+      "class_id": 20,
+      "label": "u",
+      "total": 482,
+      "correct": 454,
+      "accuracy": 0.941908713692946
+    },
+    {
+      "class_id": 21,
+      "label": "v",
+      "total": 468,
+      "correct": 442,
+      "accuracy": 0.9444444444444444
+    },
+    {
+      "class_id": 22,
+      "label": "w",
+      "total": 467,
+      "correct": 463,
+      "accuracy": 0.9914346895074947
+    },
+    {
+      "class_id": 23,
+      "label": "x",
+      "total": 470,
+      "correct": 460,
+      "accuracy": 0.9787234042553191
+    },
+    {
+      "class_id": 24,
+      "label": "y",
+      "total": 381,
+      "correct": 369,
+      "accuracy": 0.968503937007874
+    },
+    {
+      "class_id": 25,
+      "label": "z",
+      "total": 451,
+      "correct": 447,
+      "accuracy": 0.991130820399113
+    }
+  ],
+  "lowest_12": [
+    {
+      "class_id": 8,
+      "label": "i",
+      "total": 427,
+      "correct": 235,
+      "accuracy": 0.550351288056206
+    },
+    {
+      "class_id": 6,
+      "label": "g",
+      "total": 589,
+      "correct": 458,
+      "accuracy": 0.7775891341256367
+    },
+    {
+      "class_id": 16,
+      "label": "q",
+      "total": 505,
+      "correct": 448,
+      "accuracy": 0.8871287128712871
+    },
+    {
+      "class_id": 9,
+      "label": "j",
+      "total": 317,
+      "correct": 289,
+      "accuracy": 0.9116719242902208
+    },
+    {
+      "class_id": 20,
+      "label": "u",
+      "total": 482,
+      "correct": 454,
+      "accuracy": 0.941908713692946
+    },
+    {
+      "class_id": 21,
+      "label": "v",
+      "total": 468,
+      "correct": 442,
+      "accuracy": 0.9444444444444444
+    },
+    {
+      "class_id": 11,
+      "label": "l",
+      "total": 2535,
+      "correct": 2448,
+      "accuracy": 0.9656804733727811
+    },
+    {
+      "class_id": 24,
+      "label": "y",
+      "total": 381,
+      "correct": 369,
+      "accuracy": 0.968503937007874
+    },
+    {
+      "class_id": 14,
+      "label": "o",
+      "total": 466,
+      "correct": 452,
+      "accuracy": 0.9699570815450643
+    },
+    {
+      "class_id": 2,
+      "label": "c",
+      "total": 432,
+      "correct": 421,
+      "accuracy": 0.9745370370370371
+    },
+    {
+      "class_id": 5,
+      "label": "f",
+      "total": 400,
+      "correct": 390,
+      "accuracy": 0.975
+    },
+    {
+      "class_id": 23,
+      "label": "x",
+      "total": 470,
+      "correct": 460,
+      "accuracy": 0.9787234042553191
+    }
+  ],
+  "top_confusions": [
+    {
+      "label_id": 8,
+      "label": "i",
+      "pred_id": 11,
+      "pred": "l",
+      "count": 164
+    },
+    {
+      "label_id": 6,
+      "label": "g",
+      "pred_id": 16,
+      "pred": "q",
+      "count": 110
+    },
+    {
+      "label_id": 11,
+      "label": "l",
+      "pred_id": 8,
+      "pred": "i",
+      "count": 68
+    },
+    {
+      "label_id": 16,
+      "label": "q",
+      "pred_id": 6,
+      "pred": "g",
+      "count": 37
+    },
+    {
+      "label_id": 19,
+      "label": "t",
+      "pred_id": 5,
+      "pred": "f",
+      "count": 37
+    },
+    {
+      "label_id": 20,
+      "label": "u",
+      "pred_id": 21,
+      "pred": "v",
+      "count": 23
+    },
+    {
+      "label_id": 8,
+      "label": "i",
+      "pred_id": 9,
+      "pred": "j",
+      "count": 22
+    },
+    {
+      "label_id": 16,
+      "label": "q",
+      "pred_id": 0,
+      "pred": "a",
+      "count": 16
+    },
+    {
+      "label_id": 7,
+      "label": "h",
+      "pred_id": 13,
+      "pred": "n",
+      "count": 13
+    },
+    {
+      "label_id": 9,
+      "label": "j",
+      "pred_id": 8,
+      "pred": "i",
+      "count": 12
+    },
+    {
+      "label_id": 4,
+      "label": "e",
+      "pred_id": 2,
+      "pred": "c",
+      "count": 11
+    },
+    {
+      "label_id": 6,
+      "label": "g",
+      "pred_id": 0,
+      "pred": "a",
+      "count": 11
+    },
+    {
+      "label_id": 13,
+      "label": "n",
+      "pred_id": 7,
+      "pred": "h",
+      "count": 10
+    },
+    {
+      "label_id": 21,
+      "label": "v",
+      "pred_id": 24,
+      "pred": "y",
+      "count": 10
+    },
+    {
+      "label_id": 0,
+      "label": "a",
+      "pred_id": 16,
+      "pred": "q",
+      "count": 8
+    },
+    {
+      "label_id": 17,
+      "label": "r",
+      "pred_id": 19,
+      "pred": "t",
+      "count": 8
+    },
+    {
+      "label_id": 21,
+      "label": "v",
+      "pred_id": 20,
+      "pred": "u",
+      "count": 8
+    },
+    {
+      "label_id": 3,
+      "label": "d",
+      "pred_id": 0,
+      "pred": "a",
+      "count": 7
+    },
+    {
+      "label_id": 2,
+      "label": "c",
+      "pred_id": 4,
+      "pred": "e",
+      "count": 6
+    },
+    {
+      "label_id": 6,
+      "label": "g",
+      "pred_id": 18,
+      "pred": "s",
+      "count": 6
+    },
+    {
+      "label_id": 17,
+      "label": "r",
+      "pred_id": 13,
+      "pred": "n",
+      "count": 6
+    },
+    {
+      "label_id": 17,
+      "label": "r",
+      "pred_id": 21,
+      "pred": "v",
+      "count": 6
+    },
+    {
+      "label_id": 24,
+      "label": "y",
+      "pred_id": 20,
+      "pred": "u",
+      "count": 6
+    },
+    {
+      "label_id": 1,
+      "label": "b",
+      "pred_id": 7,
+      "pred": "h",
+      "count": 5
+    },
+    {
+      "label_id": 3,
+      "label": "d",
+      "pred_id": 13,
+      "pred": "n",
+      "count": 5
+    },
+    {
+      "label_id": 5,
+      "label": "f",
+      "pred_id": 19,
+      "pred": "t",
+      "count": 5
+    },
+    {
+      "label_id": 17,
+      "label": "r",
+      "pred_id": 4,
+      "pred": "e",
+      "count": 5
+    },
+    {
+      "label_id": 21,
+      "label": "v",
+      "pred_id": 17,
+      "pred": "r",
+      "count": 5
+    },
+    {
+      "label_id": 0,
+      "label": "a",
+      "pred_id": 6,
+      "pred": "g",
+      "count": 4
+    },
+    {
+      "label_id": 0,
+      "label": "a",
+      "pred_id": 20,
+      "pred": "u",
+      "count": 4
+    }
+  ],
+  "avg_infer_ms": 0.043189297460989304
+}
+

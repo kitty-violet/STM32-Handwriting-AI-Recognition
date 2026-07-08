@@ -1,0 +1,65 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>STM32 手写识别结果面板</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">STM32 Handwriting Recognition</p>
+        <h1>手写字符 / 表达式识别结果</h1>
+        <p class="summary">该页面读取 TF 卡 WEB/LAST.TXT 的最新识别结果，用于后续 WiFi 网页展示或答辩演示。</p>
+      </div>
+      <button id="reload" type="button">刷新结果</button>
+    </section>
+
+    <section class="panel">
+      <div class="metric"><span>模式</span><strong id="mode">-</strong></div>
+      <div class="metric"><span>识别内容</span><strong id="text">-</strong></div>
+      <div class="metric"><span>表达式状态</span><strong id="ok">-</strong></div>
+      <div class="metric result"><span>计算结果</span><strong id="value">-</strong></div>
+    </section>
+
+    <section class="raw">
+      <h2>原始数据</h2>
+      <pre id="raw">等待读取 LAST.TXT</pre>
+    </section>
+  </main>
+
+  <script>
+    function parseKV(text) {
+      const out = {};
+      text.split(/\r?\n/).forEach(line => {
+        const idx = line.indexOf('=');
+        if (idx > 0) out[line.slice(0, idx).trim()] = line.slice(idx + 1).trim();
+      });
+      return out;
+    }
+
+    async function loadResult() {
+      const rawBox = document.getElementById('raw');
+      try {
+        const res = await fetch('LAST.TXT?ts=' + Date.now());
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const text = await res.text();
+        const kv = parseKV(text);
+        document.getElementById('mode').textContent = kv.mode || '-';
+        document.getElementById('text').textContent = kv.text || '-';
+        document.getElementById('ok').textContent = kv.ok === '1' ? 'OK' : (kv.ok === '0' ? 'ERR' : '-');
+        document.getElementById('value').textContent = kv.value || '-';
+        rawBox.textContent = text.trim() || '(empty)';
+      } catch (err) {
+        rawBox.textContent = '无法直接读取 LAST.TXT。若浏览器限制本地 fetch，可用本目录运行 python -m http.server 8080 后访问页面。\n\n' + err.message;
+      }
+    }
+
+    document.getElementById('reload').addEventListener('click', loadResult);
+    loadResult();
+  </script>
+</body>
+</html>
+

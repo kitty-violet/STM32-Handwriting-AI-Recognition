@@ -1,0 +1,8 @@
+﻿{
+  "name": "EMNIST_STANDARD_RANDOM",
+  "path": "testsets\\EMNIST_STANDARD_RANDOM",
+  "classes": 62,
+  "count": 620,
+  "label_file": "testsets\\EMNIST_STANDARD_RANDOM\\LABEL.TXT",
+  "mode": "random"
+}

@@ -1,0 +1,8 @@
+﻿{
+  "name": "EMNIST_BYCLASS",
+  "path": "testsets\\EMNIST_BYCLASS",
+  "classes": 62,
+  "per_class": 10,
+  "count": 620,
+  "label_file": "testsets\\EMNIST_BYCLASS\\LABEL.TXT"
+}

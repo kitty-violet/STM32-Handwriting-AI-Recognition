@@ -1,0 +1,52 @@
+﻿{
+  "model": "MNISTCNN",
+  "framework": "PyTorch 2.10.0+cpu",
+  "device": "cpu",
+  "raw_dir": "<LOCAL_PATH>",
+  "epochs_run": 3,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "target_train_acc": 0.99,
+  "final_train_loss": 0.030996133391062417,
+  "final_train_acc": 0.9909,
+  "final_test_loss": 0.04001220925450325,
+  "final_test_acc": 0.9873,
+  "best_test_acc": 0.9873,
+  "best_epoch": 3,
+  "elapsed_sec": 53.872983900000236,
+  "weights": "<LOCAL_PATH>",
+  "history": [
+    {
+      "epoch": 1,
+      "lr": 0.0009619397662556434,
+      "train_loss_step": 0.2207468112528324,
+      "train_acc_step": 0.93435,
+      "train_loss": 0.06002388834953308,
+      "train_acc": 0.9820666666666666,
+      "test_loss": 0.058162003445625304,
+      "test_acc": 0.9816
+    },
+    {
+      "epoch": 2,
+      "lr": 0.0008535533905932738,
+      "train_loss_step": 0.06080454198122025,
+      "train_acc_step": 0.9819833333333333,
+      "train_loss": 0.038445268170038856,
+      "train_acc": 0.98845,
+      "test_loss": 0.0405560910820961,
+      "test_acc": 0.9866
+    },
+    {
+      "epoch": 3,
+      "lr": 0.0006913417161825451,
+      "train_loss_step": 0.04278332944115003,
+      "train_acc_step": 0.9867333333333334,
+      "train_loss": 0.030996133391062417,
+      "train_acc": 0.9909,
+      "test_loss": 0.04001220925450325,
+      "test_acc": 0.9873
+    }
+  ]
+}
+
